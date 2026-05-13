@@ -1,0 +1,140 @@
+.navbar-custom {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0.7rem 0;
+    z-index: 1030;
+}
+
+.nav-logo-area {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo-bg {
+    background-color: #2563eb;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.logo-bg:hover {
+    transform: rotate(-5deg);
+}
+
+/* Links Style */
+.nav-link-item {
+    color: #64748b;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: none;
+    background: transparent;
+    font-size: 0.9rem;
+}
+
+.nav-link-item:hover, .nav-link-item.active {
+    color: #2563eb;
+    background-color: #f0f7ff;
+}
+
+/* Icons */
+.action-icon-btn {
+    color: #64748b;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+.active-link {
+    color: #007bff; 
+    background-color: rgba(0, 123, 255, 0.1);
+    border-radius: 8px;
+}
+
+.action-icon-btn:hover {
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+/* Badges */
+.notif-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 9px;
+    height: 9px;
+    background-color: #ef4444;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.msg-badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: #ef4444;
+    color: white;
+    font-size: 0.6rem;
+    padding: 2px 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+.msg-badge {
+    position: absolute;
+    top: -5px; 
+    right: -2px;
+    background-color: #ef4444 !important; 
+    color: white !important;
+    font-size: 10px;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    font-weight: bold;
+    z-index: 10;
+}
+
+/* Profile Avatar */
+.avatar-circle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.avatar-circle:hover {
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+.dropdown-item {
+    transition: 0.2s;
+}
+
+.dropdown-item:active {
+    background-color: #2563eb;
+}
+
+.hover-bg-light:hover {
+    background-color: #f8fafc;
+}

@@ -1,0 +1,48 @@
+.admin-container {
+    background-color: #f8fafc;
+    min-height: 100vh;
+}
+.admin-stat-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin-table-container {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+}
+.status-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.status-active { background-color: #f0fdf4; color: #16a34a; }
+.status-inactive { background-color: #fef2f2; color: #dc2626; }
+.action-icon {
+    cursor: pointer;
+    color: #94a3b8;
+    margin: 0 5px;
+    transition: color 0.2s;
+}
+.action-icon:hover { color: #1e293b; }
+.delete-icon:hover { color: #dc2626; }
+
+/* تأثير الـ Hover على أيقونة الإعدادات */
+.admin-settings-icon {
+    transition: all 0.2s ;
+    background-color: transparent;
+}
+
+.admin-settings-icon:hover {
+    /* لون رمادي فاتح جداً عند الوقوف بالماوس */
+    color: #2357b6 !important;  /* يغير لون الترس للأزرق عند الوقوف عليه */
+    transform: rotate(10deg);    /* حركة دوران خفيفة تعطي لمسة جمالية */
+}
+

@@ -1,0 +1,38 @@
+.messages-page {
+    background-color: #f9fafb;
+    height: calc(100vh - 70px); 
+    overflow: hidden;
+}
+.messages-card {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    height: 100%;
+}
+.conv-list {
+    border-right: 1px solid #e5e7eb;
+    overflow-y: auto;
+}
+.conv-item {
+    cursor: pointer;
+    transition: background 0.2s;
+    border-radius: 8px;
+    padding: 12px;
+}
+.conv-item.active { background-color: #f3f4f6; }
+.conv-item:hover:not(.active) { background-color: #f9fafb; }
+
+.chat-bubble {
+    padding: 10px 16px;
+    border-radius: 12px;
+    max-width: 75%;
+    font-size: 0.9rem;
+}
+.bubble-me { background-color: #2563eb; color: white; border-bottom-right-radius: 2px; }
+.bubble-other { background-color: #f3f4f6; color: #1f2937; border-bottom-left-radius: 2px; }
+
+.chat-input-container {
+    background-color: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+    padding: 15px;
+}

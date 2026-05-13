@@ -1,0 +1,40 @@
+.profile-container {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+.profile-card {
+    background: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.upload-circle {
+    width: 100px;
+    height: 100px;
+    background: #f3f4f6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    font-size: 2rem;
+    color: #9ca3af;
+}
+.btn-upload {
+    border: 1px solid #dee2e6;
+    color: #2563eb;
+    background: white;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+.add-btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    width: 45px;
+    border-radius: 6px;
+}
