@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from "r
 import Navbar from "./pages/Navbar.jsx";
 import LandingPage from "./pages/LandingPage.jsx";
 import Register from "./pages/Register.jsx";
-import Login from "./pages/Login.jsx";
+import Login from "./pages/login.jsx";
 import CompleteProfile from "./pages/CompleteProfile.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Matches from "./pages/Matches.jsx";
